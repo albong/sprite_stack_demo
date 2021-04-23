@@ -1,0 +1,19 @@
+# enter the name of a file or directory per line that should be skipped when
+# running build.py
+# use absolute paths with 'root' being the directory where build.py is
+#
+# for example to exclude the file 'test.c' in the same directory as build.py,
+# add the line '/test.c'
+#
+# because I'm lazy, use linux '/' for separators, python will run a replace on
+# the string if it needs to be '\' for Windows
+
+/old_src
+/entities/entity_tables_example.c
+/weapons/weapon_tables_example.c
+/enemies/enemy_tables_example.c
+/enemies/enemyloader.h
+/enemies/enemyloader.c
+
+/entities/entity_xxxxx.c
+/entities/entity_xxxxx.h

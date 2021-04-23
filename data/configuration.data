@@ -1,0 +1,21 @@
+{
+    "logging level" : 0,
+    
+    "debug skip initial title screen" : true,
+    "debug use debug newgame file" : true,
+    
+    "enable debug drawing" : true,
+    "debug drawing settings" : {
+        "draw bounding boxes" : false,
+        "draw only bounding boxes" : false,
+        "draw attack hitboxes" : false,
+        "draw hurt hitboxes" : false,
+        "draw physical hitboxes" : false,
+        "draw interact hitboxes" : false,
+        "draw wall hitboxes" : false,
+        
+        "draw framerate" : true,
+        
+        "draw missing characters" : true
+    }
+}
